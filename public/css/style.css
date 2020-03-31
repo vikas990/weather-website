@@ -1,0 +1,87 @@
+body,html{
+	color:#343334;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+
+.head{
+	font-size: 100px;
+	margin:56px 0 0 235px;
+	font-family: sans-serif;
+}
+
+.navitem{
+	color: #B9B8B9;
+	text-decoration: none;
+	font-family: sans-serif;
+	
+	
+}
+.navbar{
+
+	margin-left:15%;
+	padding-top: 10px;
+	margin-right:350px; 
+	word-spacing: 20px;
+	
+	margin-bottom: 50px;
+
+}
+.line{
+	margin-left:15%;
+	margin-right:350px; 
+	border-bottom: 1px solid grey;
+}
+
+.name{
+	margin-left:15%;
+	padding: 20px;
+	color: #B9B8B9;
+	font-family: sans-serif;
+}
+
+.image{
+	width: 300px;
+	margin-left: 15%;
+	padding: 10px;
+}
+.msg{
+	margin-left: 15%;
+
+}
+
+.error{
+	margin-left: 15%;
+}
+.footer{
+	position: relative;
+	margin-top: 600px;
+	clear:both;
+}
+
+#message-1,
+#message-2{
+	margin-left: 15%;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+input{
+	padding: 8px;
+	border:1px solid grey;
+	border-radius: 30px;
+}
+
+button{
+
+	padding: 8px;
+	border:1px solid grey;
+	border-radius: 4px;
+	width: 80px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #888888
+}
