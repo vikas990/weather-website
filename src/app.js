@@ -35,7 +35,7 @@ app.get('', (req,res)=>{
 app.get('/help', (req,res)=>{
 	res.render('help',{
 		title: 'Help Page',
-		message: 'If you need any help! Mere pass mat aaio!',
+		message: 'If you need any help! Just contact us!',
 		name: 'JOKER'
 	})
 })
