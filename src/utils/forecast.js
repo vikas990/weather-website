@@ -1,4 +1,4 @@
-const request = require('request')
+ const request = require('request')
 
 const forecast = (logitude,latitude,callback)=>{
 
@@ -10,7 +10,9 @@ const forecast = (logitude,latitude,callback)=>{
 		}else if(body.error){
 			callback('Unable to get the Location!',undefined)
 		}else{
-			callback(undefined,body.daily.data[0].summary+'It is currently '+body.currently.temperature+' degrees out there. There is a '+body.currently.precipProbability+'% chance of rain.')
+
+
+			callback(undefined,body.daily.data[0].summary+'It is currently '+body.currently.temperature+' degrees out there. The high today is ' + body.daily.data[0].temperatureHigh+'. The low is '+ body.daily.data[0].temperatureLow+ '. There is a '+body.currently.precipProbability+'% chance of rain.')
 		}
 	})
 }
