@@ -1,6 +1,3 @@
-console.log('Client side server setup!')
-
-
 
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
@@ -25,7 +22,7 @@ fetch('http://localhost:3000/weather?address='+location).then((response) => {
 	}else{
 		response.json().then((data)=>{
 
-			console.log(data.Location)
+			
 			messageOne.textContent=data.Location
 			messageTwo.textContent=data.forecast
 	})
